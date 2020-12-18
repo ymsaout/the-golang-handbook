@@ -1,0 +1,33 @@
+Go (programming language)
+From Wikipedia, the free encyclopedia
+  (Redirected from Golang)
+Jump to navigationJump to search
+For the language released in 2003 by McCabe and Clark, see Go! (programming language).
+"Google Go" redirects here. For the computer program by Google to play the board game Go, see AlphaGo.
+￼
+Go was conceived in 2007 to improve programming productivity at Google, in an era of multicore processors, computer networks, and large codebases.[17] The designers wanted to resolve criticisms of other languages, while retaining many of their useful characteristics:[18]
+
+Static typing and efficiency (like C++ or Java)
+Productivity and ease of use (like Python or JavaScript)[19]
+High-performance networking and multiprocessing
+The designers cited their shared dislike of C++ as a primary motivation for designing a new language.[20][21][22]
+
+Go was publicly announced in November 2009,[23] and version 1.0 was released in March 2012.[24][25] Go is widely used in production at Google[26] and in many other organizations and open-source projects.
+
+In April 2018, the original logo (Gopher mascot) was replaced with a stylized GO slanting right with trailing streamlines. However, the mascot remained the same.[27]
+
+In August 2018, the Go principal contributors published two ″draft designs″ for new language features, Generics and Error Handling, and asked Go users to submit feedback on them.[28][29] Lack of support for generic programming and the verbosity of error handling in Go 1.x had drawn considerable criticism.
+
+￼
+Language design[edit]
+Go is recognizably in the tradition of C, but makes many changes to improve brevity, simplicity, and safety. The language consists of:
+
+A syntax and environment adopting patterns more common in dynamic languages:[40]
+Optional concise variable declaration and initialization through type inference (x := 0 not int x = 0; or var x = 0;).
+Fast compilation times.[41]
+Remote package management (go get)[42] and online package documentation.[43]
+Distinctive approaches to particular problems:
+Built-in concurrency primitives: light-weight processes (goroutines), channels, and the select statement.
+An interface system in place of virtual inheritance, and type embedding instead of non-virtual inheritance.
+A toolchain that, by default, produces statically linked native binaries without external dependencies.
+A desire to keep the language specification simple enough to hold in a programmer's head,[44] in part by omitting features which are common in similar languages.
